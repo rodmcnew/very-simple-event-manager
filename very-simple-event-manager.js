@@ -11,7 +11,7 @@ function VerySimpleEventManager() {
      * Add a listener
      *
      * @param {string} eventName The event's name
-     * @param {function} handler A function that is called when the event is triggerd. Accepts an optional 'event-data' object argument
+     * @param {function} handler A function that is called when the event is triggerd. Arg 1 will be the optional 'event-data' object
      */
     this.on = function (eventName, handler) {
         if (!handlers[eventName]) {
