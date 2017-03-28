@@ -1,4 +1,4 @@
-function verySimpleEventManager() {
+function VerySimpleEventManager() {
 
     /**
      * Is a map of event-name to handler-array for each kind of event
